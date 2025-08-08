@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dynamic portfolio website with scroll-triggered animations and interactive navigation">
+    <meta name="keywords" content="portfolio, interactive, navigation, animations, web design">
+    <meta name="author" content="Your Name">
+    <title>Portfolio Pro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="main-nav" class="navbar">
+            <div class="logo">
+                <a href="#home">PortfolioPro</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-item">Home</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#projects" class="nav-item">Projects</a></li>
+                <li><a href="#skills" class="nav-item">Skills</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section hero">
+            <div class="hero-content">
+                <h1 class="animate-on-scroll">Build the Future</h1>
+                <p class="animate-on-scroll">Showcasing innovative web solutions with creativity and precision.</p>
+                <a href="#projects" class="cta-button animate-on-scroll">Explore Projects</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="animate-on-scroll">About Me</h2>
+            <div class="about-content animate-on-scroll">
+                <div class="about-text">
+                    <p>Hi, I'm [Your Name], a passionate web developer with a knack for creating user-friendly, visually stunning websites.</p>
+                    <p>With expertise in modern web technologies and a love for problem-solving, I’m ready to take on your next big project!</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://img.freepik.com/premium-vector/full-stack-developer-working-computer-vector-illustration-it-professional-web-developer-programmi_103044-1164.jpg" alt="Developer working on laptop">
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="animate-on-scroll">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll">
+                    <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600" alt="E-commerce Website">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A responsive online store with secure payment integration.</p>
+                    <a href="#" class="project-link">View Details</a>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <img src="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Data Dashboard">
+                    <h3>Data Dashboard</h3>
+                    <p>Interactive dashboard for real-time analytics and insights.</p>
+                    <a href="#" class="project-link">View Details</a>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <img src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Social App">
+                    <h3>Social Media App</h3>
+                    <p>A mobile-first app for seamless community interaction.</p>
+                    <a href="#" class="project-link">View Details</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="animate-on-scroll">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill animate-on-scroll">
+                    <h3>HTML & CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95%"></div>
+                    </div>
+                </div>
+                <div class="skill animate-on-scroll">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="skill animate-on-scroll">
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+                <div class="skill animate-on-scroll">
+                    <h3>Node.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="animate-on-scroll">Get in Touch</h2>
+            <p class="animate-on-scroll">Have a project in mind? Let’s make it happen!</p>
+            <div class="contact-form animate-on-scroll">
+                <input type="text" placeholder="Your Name" aria-label="Name" required>
+                <input type="email" placeholder="Your Email" aria-label="Email" required>
+                <textarea placeholder="Your Message" aria-label="Message" required></textarea>
+                <button class="cta-button">Send Message</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PortfolioPro by [Your Name]. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter">Twitter</a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://github.com" target="_blank" aria-label="GitHub">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
